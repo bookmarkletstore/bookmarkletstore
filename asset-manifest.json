@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bookmarkletstore/static/css/main.073c9b0a.css",
+    "main.js": "/bookmarkletstore/static/js/main.61ada9c9.js",
+    "static/js/787.c8da1616.chunk.js": "/bookmarkletstore/static/js/787.c8da1616.chunk.js",
+    "static/media/logo.svg": "/bookmarkletstore/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bookmarkletstore/index.html",
+    "main.073c9b0a.css.map": "/bookmarkletstore/static/css/main.073c9b0a.css.map",
+    "main.61ada9c9.js.map": "/bookmarkletstore/static/js/main.61ada9c9.js.map",
+    "787.c8da1616.chunk.js.map": "/bookmarkletstore/static/js/787.c8da1616.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.61ada9c9.js"
+  ]
+}

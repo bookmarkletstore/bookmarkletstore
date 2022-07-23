@@ -1,5 +1,6 @@
 {
   "name": "bookmarklet-store",
+  "homepage": "https://bookmarkletstore.github.io/bookmarkletstore",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

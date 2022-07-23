@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Demo from './shared-modules/demo/Demo';
 
 function App() {
   return (
@@ -7,16 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Version 1.2
+          Version 1.4
+          <Demo />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

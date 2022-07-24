@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbookmarklet_store=self.webpackChunkbookmarklet_store||[]).push([[87],{87:function(e,t,a){a.r(t);var o=a(950),r=a.n(o);t.default=function(){return r().createElement("div",{className:"mt-10 text-3xl mx-auto max-w-6xl"},"Demo version 7")}}}]);

@@ -1,0 +1,8 @@
+{
+    "window.title": "${dirty}BML Store UI",
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#476ba5",
+      "titleBar.inactiveBackground": "#476ba5ec",
+      "titleBar.activeForeground": "#FBFAF9"
+    }
+  }

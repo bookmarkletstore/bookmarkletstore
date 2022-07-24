@@ -11,7 +11,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "build:start": "cd dist && PORT=4040 npx serve",

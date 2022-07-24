@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "https://bookmarkletstore.github.io/"
+    publicPath: "http://localhost:4043/",
   },
 
   resolve: {
@@ -12,9 +12,8 @@ module.exports = {
   },
 
   devServer: {
-    port: 4041,
+    port: 4043,
     historyApiFallback: true,
-    hot: true
   },
 
   module: {
@@ -42,14 +41,10 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "BmlStore",
+      name: "bookmarklet_store",
       filename: "remoteEntry.js",
-      remotes: [
-        { MfeStore: "MfeStore@http://localhost:4040/remoteEntry.js" }
-      ],
-      exposes: {
-        "./BmlDemo": "./src/shared-modules/demo/Demo.jsx"
-      },
+      remotes: {},
+      exposes: {},
       shared: {
         ...deps,
         react: {
@@ -64,7 +59,6 @@ module.exports = {
     }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      favicon: "./src/web/favicon.ico"
     }),
   ],
 };

@@ -1,24 +1,13 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Demo from './shared-modules/demo/Demo';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import BmlHomePage from './app-modules/homepage/BmlHomePage';
 
 import "./index.scss";
 
-// const Demo = ()=> {
-//   return <div className='mt-10 text-3xl mx-auto max-w-6xl'>Version 5</div>;
-// }
-
 const App = () => (
   <>
-    <BrowserRouter>
-      <Routes>
-        <Route path='' element={<Demo />} />
-      </Routes>
-    </BrowserRouter>
+    <BmlHomePage />
   </>
 );
-
-export default App;
-
 ReactDOM.render(<App />, document.getElementById("app"));

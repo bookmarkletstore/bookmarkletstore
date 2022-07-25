@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "http://localhost:4041/",
+    publicPath: "https://bookmarkletstore.github.io/",
   },
 
   resolve: {
@@ -47,7 +47,7 @@ module.exports = {
         // './MfeDemo': './src/shared-modules/mfedemo/MfeDemo.jsx',
       },
       remotes: {
-         MfeStore: "MfeStore@https://localhost:4040/remoteEntry.js",
+         MfeStore: "MfeStore@https://mfestore.github.io/remoteEntry.js",
       },
       shared: {
         ...deps,

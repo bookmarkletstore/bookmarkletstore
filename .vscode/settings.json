@@ -5,5 +5,10 @@
       "titleBar.activeForeground": "#FBFAF9",
       "titleBar.inactiveBackground": "#83aeacec",
       "titleBar.inactiveForeground": "#020915",
-    }
+    },
+    "tailwindCSS.classAttributes":[
+      "class",
+      "className",
+      "cls"
+    ]
   }

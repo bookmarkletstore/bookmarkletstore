@@ -47,7 +47,7 @@ module.exports = {
         // './MfeDemo': './src/shared-modules/mfedemo/MfeDemo.jsx',
       },
       remotes: {
-         MfeStore: "MfeStore@https://localhost:4040/remoteEntry.js",
+         MfeStore: "MfeStore@http://localhost:4040/remoteEntry.js",
       },
       shared: {
         ...deps,
